@@ -1,11 +1,16 @@
 package main
 
 import (
+	"time"
+
 	"github.com/MajotraderLucky/MarketRepository/account"
 	"github.com/MajotraderLucky/MarketRepository/connect"
 )
 
 func main() {
 	connect.Init()
-	account.Account()
+
+	for range time.Tick(time.Second * 30) {
+		account.Account()
+	}
 }
