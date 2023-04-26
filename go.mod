@@ -2,7 +2,7 @@ module mybot
 
 go 1.20
 
-require github.com/MajotraderLucky/MarketRepository v0.0.0-20230425230627-e7848491a6cc
+require github.com/MajotraderLucky/MarketRepository v0.0.0-20230426025843-ff95229b76bd
 
 require (
 	github.com/adshao/go-binance/v2 v2.4.2 // indirect
