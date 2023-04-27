@@ -10,7 +10,7 @@ import (
 
 func main() {
 	connect.Init()
-	priceanalyst.Hello()
+	priceanalyst.FiboLongBtc()
 
 	for range time.Tick(time.Second * 30) {
 		account.Account()
