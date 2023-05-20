@@ -9,6 +9,5 @@ import (
 func main() {
 	connect.Init()
 	priceanalyst.FiboLongBtc()
-
 	account.Account()
 }
