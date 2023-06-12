@@ -12,4 +12,5 @@ func main() {
 	priceanalyst.FiboLongBtc()
 	account.Account()
 	dataprocessing.TestHello()
+	dataprocessing.DataGenerator()
 }
