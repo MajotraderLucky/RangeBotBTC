@@ -11,6 +11,7 @@ func main() {
 	connect.Init()
 	priceanalyst.FiboLongBtc()
 	account.Account()
-	dataprocessing.DataGenerator()
-	dataprocessing.SetTestVarString()
+	ch := make(chan string)
+	go dataprocessing.DataGenerator(ch)
+	dataprocessing.SetTestVarString(ch)
 }
