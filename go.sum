@@ -80,6 +80,16 @@ github.com/MajotraderLucky/MarketRepository v0.0.0-20230614010138-bdae9044c0d1 h
 github.com/MajotraderLucky/MarketRepository v0.0.0-20230614010138-bdae9044c0d1/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
 github.com/MajotraderLucky/MarketRepository v0.0.0-20230614010533-26ae2af4d921 h1:hWNDITg+8OxIeX/DmzvMp8xHc/d/6G7fYYZcSiqFnwY=
 github.com/MajotraderLucky/MarketRepository v0.0.0-20230614010533-26ae2af4d921/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230614015508-9517b5f6cf09 h1:2DoVadZiW7bDaBdDCMam1E0SwJbq4gLrEuwjMAVCMG4=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230614015508-9517b5f6cf09/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230614015940-3aaa39d1dcea h1:3IwDOQw7FRUq4BIr4xYBiFHUDlU7RCTLCXyIi6m4r/4=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230614015940-3aaa39d1dcea/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230614020254-ff04a5b64682 h1:cOGSQhah1vaN5jDo8I/3d+WN/u1z6/tUl8SbGDW5fv4=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230614020254-ff04a5b64682/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230614020931-b08d6fddbf8c h1:FFs1KTucX6yryu7797ch0kY7R3NqCvXBbdpAXuP65NQ=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230614020931-b08d6fddbf8c/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230614021356-836873041fbf h1:JYpschUd9aIgL989umU52gMAznRjj71yPmGvjb9nZJ4=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230614021356-836873041fbf/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
 github.com/adshao/go-binance/v2 v2.4.2 h1:NBNMUyXrci45v3sr0RkZosiBYSw1/yuqCrJNkyEM8U0=
 github.com/adshao/go-binance/v2 v2.4.2/go.mod h1:41Up2dG4NfMXpCldrDPETEtiOq+pHoGsFZ73xGgaumo=
 github.com/bitly/go-simplejson v0.5.0 h1:6IH+V8/tVMab511d5bn4M7EwGXZf9Hj6i2xSwkNEM+Y=
