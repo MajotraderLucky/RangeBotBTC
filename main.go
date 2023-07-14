@@ -15,5 +15,7 @@ func main() {
 	ch := make(chan string)
 	go dataprocessing.DataGenerator(ch)
 	dataprocessing.SetTestVarString(ch)
-	checkstartposition.Checkstartposition()
+	chBool := make(chan bool)
+	go checkstartposition.Checkstartposition(chBool)
+	checkstartposition.SetCheckStartPosition(chBool)
 }
