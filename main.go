@@ -24,6 +24,9 @@ func main() {
 	setStartPosition := <-chBool
 	fmt.Println("Result start position in main.go -", setStartPosition)
 
+	chBool2 := make(chan bool)
+
 	priceinsidethegridfibo.Hello()
-	priceinsidethegridfibo.Priceingrid()
+	go priceinsidethegridfibo.Priceingrid(chBool2)
+	priceinsidethegridfibo.SetPriceBetween(chBool2)
 }
