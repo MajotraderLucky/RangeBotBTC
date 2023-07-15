@@ -34,4 +34,5 @@ func main() {
 
 	setOrder := setStartPosition && setPriceBetweenVar
 	fmt.Println("Can place buy order -", setOrder)
+	fmt.Println("----------------------")
 }
