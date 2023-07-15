@@ -19,7 +19,6 @@ func main() {
 	dataprocessing.SetTestVarString(ch)
 	chBool := make(chan bool)
 	go checkstartposition.Checkstartposition(chBool)
-	// checkstartposition.SetCheckStartPosition(chBool)
 
 	setStartPosition := <-chBool
 	fmt.Println("The value from the channel bool -", setStartPosition)
