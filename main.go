@@ -30,7 +30,7 @@ func main() {
 	go priceinsidethegridfibo.Priceingrid(chBool2)
 
 	setPriceBetweenVar := <-chBool2
-	fmt.Println("Condition price between 382 and 786 -", setPriceBetweenVar)
+	fmt.Println("Condition price between 236 and 786 -", setPriceBetweenVar)
 
 	setOrder := setStartPosition && setPriceBetweenVar
 	fmt.Println("Can place buy order -", setOrder)
