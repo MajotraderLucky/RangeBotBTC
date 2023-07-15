@@ -28,5 +28,7 @@ func main() {
 
 	priceinsidethegridfibo.Hello()
 	go priceinsidethegridfibo.Priceingrid(chBool2)
-	priceinsidethegridfibo.SetPriceBetween(chBool2)
+
+	setPriceBetweenVar := <-chBool2
+	fmt.Println("Condition price between 382 and 786 -", setPriceBetweenVar)
 }
