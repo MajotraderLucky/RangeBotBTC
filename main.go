@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/MajotraderLucky/MarketRepository/account"
 	"github.com/MajotraderLucky/MarketRepository/checkstartposition"
 	"github.com/MajotraderLucky/MarketRepository/connect"
@@ -17,5 +19,8 @@ func main() {
 	dataprocessing.SetTestVarString(ch)
 	chBool := make(chan bool)
 	go checkstartposition.Checkstartposition(chBool)
-	checkstartposition.SetCheckStartPosition(chBool)
+	// checkstartposition.SetCheckStartPosition(chBool)
+
+	setStartPosition := <-chBool
+	fmt.Println("The value from the channel bool -", setStartPosition)
 }
