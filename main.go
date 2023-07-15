@@ -25,4 +25,5 @@ func main() {
 	fmt.Println("Result start position in main.go -", setStartPosition)
 
 	priceinsidethegridfibo.Hello()
+	priceinsidethegridfibo.Priceingrid()
 }
