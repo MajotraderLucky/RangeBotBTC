@@ -8,6 +8,7 @@ import (
 	"github.com/MajotraderLucky/MarketRepository/connect"
 	"github.com/MajotraderLucky/MarketRepository/dataprocessing"
 	"github.com/MajotraderLucky/MarketRepository/priceanalyst"
+	"github.com/MajotraderLucky/MarketRepository/priceinsidethegridfibo"
 )
 
 func main() {
@@ -22,4 +23,6 @@ func main() {
 
 	setStartPosition := <-chBool
 	fmt.Println("Result start position in main.go -", setStartPosition)
+
+	priceinsidethegridfibo.Hello()
 }
