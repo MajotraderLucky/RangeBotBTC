@@ -31,4 +31,7 @@ func main() {
 
 	setPriceBetweenVar := <-chBool2
 	fmt.Println("Condition price between 382 and 786 -", setPriceBetweenVar)
+
+	setOrder := setStartPosition && setPriceBetweenVar
+	fmt.Println("Can place buy order -", setOrder)
 }
