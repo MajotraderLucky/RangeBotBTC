@@ -21,5 +21,5 @@ func main() {
 	go checkstartposition.Checkstartposition(chBool)
 
 	setStartPosition := <-chBool
-	fmt.Println("The value from the channel bool -", setStartPosition)
+	fmt.Println("Result start position in main.go -", setStartPosition)
 }
