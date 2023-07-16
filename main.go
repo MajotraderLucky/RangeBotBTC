@@ -7,6 +7,7 @@ import (
 	"github.com/MajotraderLucky/MarketRepository/checkstartposition"
 	"github.com/MajotraderLucky/MarketRepository/connect"
 	"github.com/MajotraderLucky/MarketRepository/dataprocessing"
+	"github.com/MajotraderLucky/MarketRepository/findtheorderlevel"
 	"github.com/MajotraderLucky/MarketRepository/priceanalyst"
 	"github.com/MajotraderLucky/MarketRepository/priceinsidethegridfibo"
 )
@@ -35,4 +36,7 @@ func main() {
 	setOrder := setStartPosition && setPriceBetweenVar
 	fmt.Println("Can place buy order -", setOrder)
 	fmt.Println("----------------------")
+
+	findtheorderlevel.Hello()
+	findtheorderlevel.FindOrderLevel()
 }
