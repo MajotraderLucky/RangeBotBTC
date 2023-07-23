@@ -186,6 +186,16 @@ github.com/MajotraderLucky/MarketRepository v0.0.0-20230716033441-96aaaa566c96 h
 github.com/MajotraderLucky/MarketRepository v0.0.0-20230716033441-96aaaa566c96/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
 github.com/MajotraderLucky/MarketRepository v0.0.0-20230723004524-3a69df7b391c h1:kO1T4Vy9d+7TaQgQOSiY9JuhfSXy4rI6JtFZS2Io6F4=
 github.com/MajotraderLucky/MarketRepository v0.0.0-20230723004524-3a69df7b391c/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230723012531-5bd04922ea73 h1:OGSUM1nD3X7aQzspfW9udL5NWS+/oQaZTRsas6d5PKs=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230723012531-5bd04922ea73/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230723194657-c2d83bb5428d h1:noJm6UmUX5bgL6t9H6V1bj+It5/nzW8GgD4W/TK8ojI=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230723194657-c2d83bb5428d/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230723202404-58ee4f026fa8 h1:TIkcBct67K0mdlX6FpSGe2h39Rz0ol+deB/GfyQlhQM=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230723202404-58ee4f026fa8/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230723202950-769af8778f0b h1:G0ulHXvNMHg4rrTuT9LcOLtxts9tY8DaH4HSBdc+cAw=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230723202950-769af8778f0b/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230723203925-300077858f06 h1:F4AHa/Aop/hQgTMaSRNbrns5VPUB90v3iR5gQUT4fiQ=
+github.com/MajotraderLucky/MarketRepository v0.0.0-20230723203925-300077858f06/go.mod h1:pzrbNAzTHOCXZvOP0GlSbtpwuZOVaUx4SAWokdotQO8=
 github.com/adshao/go-binance/v2 v2.4.2 h1:NBNMUyXrci45v3sr0RkZosiBYSw1/yuqCrJNkyEM8U0=
 github.com/adshao/go-binance/v2 v2.4.2/go.mod h1:41Up2dG4NfMXpCldrDPETEtiOq+pHoGsFZ73xGgaumo=
 github.com/bitly/go-simplejson v0.5.0 h1:6IH+V8/tVMab511d5bn4M7EwGXZf9Hj6i2xSwkNEM+Y=
