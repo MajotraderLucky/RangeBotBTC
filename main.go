@@ -37,6 +37,9 @@ func main() {
 	fmt.Println("Can place buy order -", setOrder)
 	fmt.Println("----------------------")
 
+	chInt := make(chan int)
+
 	findtheorderlevel.Hello()
-	findtheorderlevel.FindOrderLevel()
+	go findtheorderlevel.FindOrderLevel(chInt)
+	findtheorderlevel.SetSetupOrderLevel(chInt)
 }
